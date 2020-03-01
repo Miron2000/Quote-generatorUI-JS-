@@ -1,0 +1,43 @@
+.inpt-btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input,
+.search {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.input {
+    border: 1px solid lightgray;
+}
+
+.input:hover {
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+.search {
+    background-color: lightgreen;
+    border: 1px solid transparent;
+}
+
+.search:hover {
+    cursor: pointer;
+    border: 1px solid red;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#author {
+    text-align: center;
+}
